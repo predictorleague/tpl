@@ -1,0 +1,26 @@
+for every league
+{
+	for every fixture
+	{
+		for every participant in the fixture
+		{
+			//check prediction type 2,3 or 5 goal
+			if(type==2)
+			{
+			check team
+			if team wins give 2 goals
+			}
+			else if(type=3)
+			{
+			check team+scorer
+			if right give 3 goals
+			}
+			else
+			{
+			check team+scorer+scoreline
+			if right give 5 goals
+			}
+		}
+		identify the winner and update fixtures table	
+	}
+}
